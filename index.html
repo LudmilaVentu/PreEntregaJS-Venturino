@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre Hilos</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+   <section>
+    <h1 id="title"> Cambiando el texto</h1>
+    <button id="button" onclick="change()">Cick</button>
+   </section>
+
+
+   <!-- Para evento de cambiar -->
+   <script>
+    var coder = "Se cambio"
+    function change(){
+        document.getElementById("title").innerHTML =coder
+    }
+   </script>
+</body>
+</html>

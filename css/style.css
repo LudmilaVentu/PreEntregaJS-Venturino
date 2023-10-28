@@ -1,3 +1,62 @@
-h1{
-    background-color: grey;
+* {
+    margin: 0;
 }
+
+header {
+    z-index: 100;
+    background-color: #e8e1dc;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1PX solid gray;
+    margin-bottom: 100px;
+  }
+  header img {
+    width: 150px;
+  }
+  header .navbar {
+    display: flex;
+    margin: 1px;
+    justify-content: space-around;
+  }
+  header .navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 5px;
+   
+    justify-content: space-between;
+  }
+  header .navbar ul li {
+    padding: 5px;
+ 
+}
+  header .navbar ul li a {
+    text-decoration: none;
+    color: #8c847c;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+  }
+  header .navbar ul li a:hover {
+    color: #007bff;
+    margin: 10px;
+  }
+
+  .Imagenes{
+    display: flex;
+
+  }
+  .card-group {
+    margin: 50px;
+  }
+
+  .card {
+   margin: 50px; 
+   padding: 10px;
+   border-style: solid;
+   
+  
+  }
